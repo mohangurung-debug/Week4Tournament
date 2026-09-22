@@ -8,6 +8,7 @@
 #############################################
 
 # THIS IS WHERE YOU CODE
+#Team name: Irish Wins: 4 Ties: 3 Losses: 1 Points: 11
 print("What is your team name?")
 team1 = input()
 print("How many wins does your team currently have?")
@@ -16,7 +17,7 @@ print("How many losses does your team currently have?")
 t2 = int(input())
 print("How many draws/ties does your team currently have?")
 t3 = int(input())
-print("Your team has", t1*2+t2*1,"points")
+print(team1,":" ,t1,"wins" ,t2,"losses" ,t3,"ties.""Total points:" ,t1*2+t2*1)
 
 print("What is your team name?")
 team2 = input()
