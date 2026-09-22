@@ -17,7 +17,7 @@ print("How many losses does your team currently have?")
 t2 = int(input())
 print("How many draws/ties does your team currently have?")
 t3 = int(input())
-print(team1,":" ,t1,"wins" ,t2,"losses" ,t3,"ties.""Total points:" ,t1*2+t2*1)
+print(team1,":" ,t1,"wins" ,t2,"losses" ,t3,"ties.""Total points:" ,t1*2+t3*1)
 
 print("What is your team name?")
 team2 = input()
