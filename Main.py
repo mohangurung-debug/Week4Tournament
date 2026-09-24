@@ -68,13 +68,21 @@ r2 = int(input())
 print("How many draws/ties does your team currently have?")
 r3 = int(input())
 print(team6,":" ,r1,"wins" ,r2,"losses" ,r3,"ties.""Total points:" ,r1*2+r3*1)
-print("Enter your teams total point!)"
+
+print(team1, t1*2+t3*1)
+print(team2, e1*2+e3*1)
+print(team3, a1*2+a3*1)
+print(team4, m1*2+m3*1)
+print(team5, p1*2+p3*1)
+print(team6, p2*2+p3*1)
+
+print("Enter your teams total point!")
 team = int(input())
 
-if team>30:
+if team>20:
     print("First Place")
-elif team>=20:
+elif team<=20:
     print("Second Place")
-elif team>=10:
+elif team<=15:
     print("Third Place")
 
